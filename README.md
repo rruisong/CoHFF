@@ -8,8 +8,7 @@
 [![paper](https://img.shields.io/badge/arXiv-Abstract-<COLOR>.svg)](https://arxiv.org/abs/2402.07635)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://arxiv.org/pdf/2402.07635)
 [![Dataset](https://img.shields.io/badge/Dataset-SemanticOPV2V-pink.svg)](https://drive.google.com/drive/folders/1N7NaoebL8QljtRyCAL_emDsRrCwTr1iw)
-![Stars](https://img.shields.io/github/stars/rruisong/CoHFF?color=yellow&label=Stars)
-![Forks](https://img.shields.io/github/forks/rruisong/CoHFF?color=green&label=Forks)
+
 
 </div>
 
@@ -169,19 +168,9 @@ optimizer_type| Optimizer type
 
 Our project extensively utilizes the toolchains in the OpenCDA ecosystem, including the [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and the [OpenCDA](https://github.com/ucla-mobility/OpenCDA) simulation tools, for developing the Semantic-OPV2V dataset.
 
+Our project draws inspiration from a lot of awesome previous works in collaborative perception, also known as cooperative perception, such as: [DiscoNet (NeurIPS21)](https://arxiv.org/abs/2111.00643), [Where2comm (NeurIPS22)](https://arxiv.org/abs/2209.12836), [V2X-ViT (ECCV2022)](https://arxiv.org/abs/2203.10638), [CoBEVT (CoRL2022)](https://arxiv.org/abs/2207.02202), [CoCa3D (CVPR23)](https://arxiv.org/abs/2303.13560) and many others.
 
-Our project draws inspiration from a lot of awesome previous works in collaborative perception, also known as cooperative perception, such as:
-- [DiscoNet (NeurIPS21)](https://arxiv.org/abs/2111.00643)
-- [Where2comm (NeurIPS22)](https://arxiv.org/abs/2209.12836)
-- [V2X-ViT (ECCV2022)](https://arxiv.org/abs/2203.10638)
-- [CoBEVT (CoRL2022)](https://arxiv.org/abs/2207.02202)
-- [CoCa3D (CVPR23)](https://arxiv.org/abs/2303.13560)
-
-Additionally, our project benefits from a lot of insightful previous works in vision-based 3D semantic occupancy prediction, also known as semantic scene completion, such as:
-- [MonoScene (CVPR22)](https://arxiv.org/abs/2112.00726)
-- [TPVFormer (CVPR23)](https://arxiv.org/abs/2302.07817)
-- [VoxFormer (CVPR23)](https://arxiv.org/abs/2302.12251)
-- [FB-OCC (CVPR23)](https://arxiv.org/abs/2307.01492)
+Additionally, our project benefits from a lot of insightful previous works in vision-based 3D semantic occupancy prediction, also known as semantic scene completion, such as: [MonoScene (CVPR22)](https://arxiv.org/abs/2112.00726), [TPVFormer (CVPR23)](https://arxiv.org/abs/2302.07817), [VoxFormer (CVPR23)](https://arxiv.org/abs/2302.12251), [FB-OCC (CVPR23)](https://arxiv.org/abs/2307.01492) and many others.
 
 
 ### Citation
@@ -192,4 +181,14 @@ Additionally, our project benefits from a lot of insightful previous works in vi
         journal={arXiv preprint arXiv:2402.07635},
         year={2024}
         }
+```
+Welcome to explore our new dataset for cooperative perception: [TUMTraf-V2X](https://tum-traffic-dataset.github.io/tumtraf-v2x/)
+ ```bibtex
+@inproceedings{zimmer2024tumtrafv2x,
+  title={TUMTraf V2X Cooperative Perception Dataset},
+  author={Zimmer, Walter and Wardana, Gerhard Arya and Sritharan, Suren and Zhou, Xingcheng and Song, Rui and Knoll, Alois C.},
+  publisher={IEEE/CVF},
+  booktitle={2024 IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
 ```
