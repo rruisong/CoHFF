@@ -4,7 +4,7 @@
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Project-Website-blue.svg)](https://rruisong.github.io/publications/CoHFF/)
-[![Poster](https://img.shields.io/badge/Project-Poster-a2ad00.svg)](https://github.com/rruisong/assets/poster_5M.png)
+[![Poster](https://img.shields.io/badge/Project-Poster-a2ad00.svg)](https://github.com/rruisong/CoHFF/assets/poster_5M.png)
 [![paper](https://img.shields.io/badge/arXiv-Abstract-<COLOR>.svg)](https://arxiv.org/abs/2402.07635)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://arxiv.org/pdf/2402.07635)
 [![Dataset](https://img.shields.io/badge/Dataset-SemanticOPV2V-pink.svg)](https://drive.google.com/drive/folders/1N7NaoebL8QljtRyCAL_emDsRrCwTr1iw)
