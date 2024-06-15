@@ -1,0 +1,3 @@
+from .predictionhead import CoHFF_Predictionhead
+from .single_predictionhead import CoHFF_Single_Predictionhead
+from .predictionhead_conv import CoHFF_Predictionhead_Conv

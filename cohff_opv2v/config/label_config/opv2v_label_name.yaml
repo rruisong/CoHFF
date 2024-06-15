@@ -1,0 +1,14 @@
+opv2v_label_name:
+  0: Unlabeled
+  1: Building 
+  2: Fence 
+  3: Terrain 
+  4: Pole 
+  5: Road 
+  6: SideWalk 
+  7: Vegetation 
+  8: Vehicles 
+  9: Wall 
+  10: GuardRail
+  11: TrafficSign 
+  12: Bridge 

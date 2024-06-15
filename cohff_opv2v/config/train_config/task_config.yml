@@ -1,0 +1,47 @@
+model_type: 2 # types of fusion model
+# 0: Masked semantic class based on occupancy prediction
+# 1: Masked semantic features based on occupancy prediction
+# 2: concatenate occupancy and semantic features 
+
+task_type: 0 # types of task for training
+# 0: Completion
+# 1: Semantic Segmentation
+# 2: Hybrid_Fusion
+
+gi: True # flag of using Gauss Importance based on relative position
+supervision: 1 # 0: ego groundtruth; 1: collaborative groundtruth
+pos_emb_type: 3 # types of postional embeddings 
+# 1: [plane features] * [encoded rel. postion] + [encoded rel. angle] 
+# 2: [plane features] * ([encoded rel. postion] + [encoded rel. angle]) 
+# 3: [plane features] + [encoded rel. postion] + [encoded rel. angle] 
+     
+log_freq: 1 # number of iterations between log output
+loss_freq: 500 # number of iterations between loss record 
+save_freq: 1 # number of epochs between saves 
+
+vox_range: [20, 20, 0.9, -20, -20, -2.5] # detection range in meters
+
+max_connect_cav: 7 # max number of cavs
+nbr_class: 13 # number of semantic classes
+
+# Grid size of voxel space
+h: 100 
+w: 100
+z: 8
+
+# Path of pre-trained network 
+segmentation_net_path: '/PATH/TO/PRETRAINED/SEGMENTATION/MODEL'
+completion_net_path: '/PATH/TO/COMPLETION/MODEL'
+
+# Directory of the train/validataion dataset
+train_dataset_dir: 'PATH/TO/TRAIN/SET'
+val_dataset_dir: 'PATH/TO/VALIDATION/SET'
+
+max_epochs: 30 # max number of training epochs
+gradient_accumulate_steps: 8 
+
+# Hyperparameters for optimizer
+lr: 0.00002 # learning rate
+grad_max_norm: 35 
+weight_decay: 0.01
+optimizer_type: "AdamW"
