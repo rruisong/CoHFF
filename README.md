@@ -175,12 +175,13 @@ Additionally, our project benefits from a lot of insightful previous works in vi
 
 ### Citation
  ```bibtex
-@article{song2024collaborative,
-        title={Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles},
-        author={Song, Rui and Liang, Chenwei and Cao, Hu and Yan, Zhiran and Zimmer, Walter and Gross, Markus and Festag, Andreas and Knoll, Alois},
-        journal={arXiv preprint arXiv:2402.07635},
-        year={2024}
-        }
+@inproceedings{song2024collaborative,
+  title={Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles},
+  author={Song, Rui and Liang, Chenwei and Cao, Hu and Yan, Zhiran and Zimmer, Walter and Gross, Markus and Festag, Andreas and Knoll, Alois},
+  publisher={IEEE/CVF},
+  booktitle={2024 IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+ }
 ```
 Welcome to explore our new dataset for cooperative perception: [TUMTraf-V2X](https://tum-traffic-dataset.github.io/tumtraf-v2x/)
  ```bibtex
